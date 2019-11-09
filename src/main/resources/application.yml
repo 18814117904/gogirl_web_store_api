@@ -1,0 +1,18 @@
+spring:
+   profiles:
+      active: dev
+   jackson:
+      date-format: "yyyy-MM-dd HH:mm:ss"
+   servlet:
+      multipart:
+         enabled: true
+         max-file-size: 20MB
+         max-request-size: 100MB   
+server: 
+   port: 8086
+   servlet:
+      context-path: /gogirl_web_store
+   tomcat:
+      max-threads: 10
+mybatis:
+   mapper-locations: classpath:mapper/*.xml

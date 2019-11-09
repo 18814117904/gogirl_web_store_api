@@ -1,0 +1,39 @@
+gogirl:
+   url:
+      NGINX: "http://192.168.1.2/gogirl_web_store/"
+      GOGIRLUSER: "http://192.168.1.2:8092/"
+      GOGIRLPAYMENT: "http://192.168.1.2:8087/"
+      GOGIRLSTORE: "http://192.168.1.2:8092/"
+      GOGIRLSERVICE: "http://192.168.1.2:8092/"
+      GOGIRLTECHNICIAN: "http://192.168.1.2:8092/"
+      GOGIRLORDER: "http://192.168.1.2:8092/"
+      GOGIRLMP: "http://192.168.1.2:8088/"
+      GOGIRLPURCHASE: "http://192.168.1.2:8091/"
+      ERROR_PAGE: "http://192.168.1.2/redirect/error"
+      picturePath: "E:\\gogirlPic\\picture\\grouppic\\"
+      picturePathPurchase: "E:\\gogirlPic\\picture\\purchase\\"
+      picturePrefix: "http://192.168.1.2:80/picture/grouppic/"
+      webDetailPath: "E:\\gogirlPic\\moment\\"
+#      NGINX: "http://192.168.0.103/gogirl_web_store/"
+#      GOGIRLUSER: "http://192.168.0.103:8089/"
+#      GOGIRLPAYMENT: "http://192.168.0.103:8087/"
+#      GOGIRLSTORE: "http://192.168.0.104:8081/"
+#      GOGIRLSERVICE: "http://192.168.0.104:8082/"
+#      GOGIRLTECHNICIAN: "http://192.168.0.104:8083/"
+#      GOGIRLORDER: "http://192.168.0.104:8084/"
+#      GOGIRLMP: "http://192.168.0.104:8088/"
+#      GOGIRLPURCHASE: "http://192.168.0.103:8091/"
+#      ERROR_PAGE: "http://192.168.0.103/redirect/error"
+#      picturePath: "E:\\gogirlPic\\picture\\grouppic\\"
+#      picturePathPurchase: "E:\\gogirlPic\\picture\\purchase\\"
+#      picturePrefix: "http://192.168.0.103:80/picture/grouppic/"
+#      webDetailPath: "E:\\gogirlPic\\moment\\"
+spring:
+   datasource:
+      url: jdbc:mysql://cdb-554jnvol.gz.tencentcdb.com:10105/bailun_bendi?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: "#7kfnymAM$Y9-Ntf"
+      driver-class-name: com.mysql.jdbc.Driver
+   http:
+      multipart:
+         location: "E:\\gogirlPic\\picture\\"

@@ -1,0 +1,25 @@
+gogirl:
+   url:
+      GOGIRLSTORE: "http://127.0.0.1:8092/"
+      GOGIRLSERVICE: "http://127.0.0.1:8092/"
+      GOGIRLTECHNICIAN: "http://127.0.0.1:8092/"
+      GOGIRLORDER: "http://127.0.0.1:8092/"
+      GOGIRLUSER: "http://127.0.0.1:8092/"
+      GOGIRLPAYMENT: "http://127.0.0.1:8087/"
+      GOGIRLMP: "http://127.0.0.1:8088/"
+      GOGIRLPURCHASE: "http://127.0.0.1:8091/"
+      NGINX: "http://test.begogirls.com/gogirl/"
+      ERROR_PAGE: "http://127.0.0.1:8092/redirect/error"
+      picturePath: "/usr/local/src/picture/grouppic/"
+      picturePathPurchase: "/usr/local/src/picture/purchase/"
+      picturePrefix: "http://94.191.67.240:80/picture/grouppic/"
+      webDetailPath: "/usr/local/src/gogirl-front/web_detail/moment/"
+spring:
+   datasource:
+      url: jdbc:mysql://cdb-554jnvol.gz.tencentcdb.com:10105/bailun_gogirl?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: "#7kfnymAM$Y9-Ntf"
+      driver-class-name: com.mysql.jdbc.Driver
+   http:
+      multipart:
+         location: "/usr/local/src/picture/uploadcache"
